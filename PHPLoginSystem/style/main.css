@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #7734eb;
+  font-family: "Roboto", sans-serif;
+}
+body form {
+  border-radius: 1rem;
+  background-color: white;
+  padding: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+body form .title {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: center;
+}
+body form .error {
+  background-color: #df4759;
+  padding: 0.35rem;
+  border-radius: 0.25rem;
+  color: white;
+}
+body form input {
+  padding: 0.35rem;
+  border: 1px solid lightgray;
+  outline: #7734eb;
+  font-family: "Roboto", sans-serif;
+  border-radius: 0.25rem;
+}
+body form button {
+  background-color: #7734eb;
+  outline: none;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.3rem;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  cursor: pointer;
+}
+body form button:hover {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+* {
+  transition: all 0.2s linear;
+}/*# sourceMappingURL=main.css.map */
